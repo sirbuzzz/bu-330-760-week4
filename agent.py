@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from pydantic_ai import Agent
 from calculator import calculate
 
-load_dotenv()
+load_dotenv(override=True)
 
 # Configure your model below. Examples:
 #   "google-gla:gemini-2.5-flash"       (needs GOOGLE_API_KEY)
